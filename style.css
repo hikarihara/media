@@ -1,0 +1,37 @@
+body{margin: 0;
+}
+
+.header{
+    padding: 20px;
+    background-color: #C5CAE9;
+    *zoom: 1;
+
+}
+
+.header h1{
+    margin:0;
+    font-size: 20px;
+    list-style: 1;
+}
+
+.header h1 a{
+    color: #000;
+    text-decoration: none;
+}
+
+.header .logo{
+    float: left;
+    width: 40px;
+    margin: -4px 10px 0 0;
+    border: none;
+    vertical-align: middle;
+}
+
+.header:after{
+    content: "";
+    display:block;
+    clear: both;
+}
+
+
+
